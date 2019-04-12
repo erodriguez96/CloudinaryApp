@@ -30,6 +30,9 @@ plugins/ios.json
 www/
 $RECYCLE.BIN/
 
+src/app/firebase.config.ts
+src/app/cloudinary.config.ts
+
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate

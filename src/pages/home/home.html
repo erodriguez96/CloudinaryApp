@@ -10,6 +10,6 @@
 
   <input type="file" ng2FileSelect [uploader]="uploader" accept="image/*;capture=camera">
 
-  <button [disabled]="loading" (click)="upload()" class="btn btn-success mt-3">Upload</button>
+  <button [disabled]="loading" (click)='upload(image)' class="btn btn-success mt-3">Upload</button>
 
 </ion-content>

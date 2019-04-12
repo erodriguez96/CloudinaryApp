@@ -18,7 +18,8 @@ import { FileSelectDirective } from 'ng2-file-upload';
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    FileSelectDirective
   ],
   imports: [
     BrowserModule,
@@ -39,4 +40,3 @@ import { FileSelectDirective } from 'ng2-file-upload';
     ImagesProvider
   ]
 })
-export class AppModule {}
